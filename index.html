@@ -47,28 +47,18 @@
         <div class="panel second" id="portfolio" style="background:#150f21;">
             <div class="container">
                 <h1>Portfolio</h1>
-
+                <br>
                 <div id="nanogallery2" data-nanogallery2='{               
                     "itemsBaseURL":            "./images/",
-                    "thumbnailHeight":           65,
-                    "thumbnailWidth":            65,
-                    "galleryMosaic":             [
-                                                { "w": 5, "h": 3, "c": 2,  "r": 1 },
-                                                { "w": 2, "h": 2, "c": 1,  "r": 2 },
-                                                { "w": 2, "h": 2, "c": 7,  "r": 2 },
-                                                { "w": 2, "h": 2, "c": 2,  "r": 4 },
-                                                { "w": 3, "h": 4, "c": 4,  "r": 4 },
-                                                { "w": 3, "h": 4, "c": 7,  "r": 4 },
-                                                { "w": 2, "h": 2, "c": 10, "r": 5 },
-                                                { "w": 4, "h": 2, "c": 11, "r": 6 }
-                                                ],
-                    "thumbnailGutterWidth":      5,
-                    "thumbnailGutterHeight":     5,
-                    "thumbnailBorderHorizontal": 0,
-                    "thumbnailBorderVertical":   0,
-                    "galleryMaxRows":            1,
-                    "galleryDisplayMode":        "rows",                     
-                    "thumbnailLabel":            { "display" : false }
+                    "thumbnailLabel":  { "position" : "onBottom" },
+                    "thumbnailHeight": "auto",
+                    "thumbnailWidth":  200,                     
+                    "thumbnailLabel":            { "display" : false },
+                    "thumbnailStacks":           0,
+        "thumbnailStacksTranslateZ": 0.3,
+        "thumbnailStacksRotateX":    0.9,
+        "galleryBuildInit2":         "perspective_900px|perspective-origin_50% 150%",
+        "thumbnailHoverEffect2":     "thumbnail_translateZ_0px_100px_easeOutQuad_400 | thumbnail_rotateX_0deg_10deg_easeOutBack_200 | thumbnail_rotateX_10deg_0deg_delay250_keyframe_hoverin_easeOutBack_400"
                     }'>
                     
                     <!-- IMAGES -->

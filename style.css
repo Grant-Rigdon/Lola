@@ -51,6 +51,10 @@ ul {
   margin-left: 45%;
 }
 
+.form-control {
+  border-color: #8F3985;
+}
+
 .btn-outline {
   color: #8F3985;
   border-color: #8F3985;

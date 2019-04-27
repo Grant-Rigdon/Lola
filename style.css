@@ -21,7 +21,7 @@ ul {
 
 .parallax { 
   /* The image used */
-  background-image: url("./images/united-squares-negative/united-squares-negative/united-squares-negative.png");
+  background-image: url("https://cdn5.vectorstock.com/i/1000x1000/46/79/stylish-doodle-gem-crystals-vector-21134679.jpg");
   
   /* Full height */
   height: 100%; 
@@ -38,8 +38,7 @@ ul {
 }
 
 #about {
-  background-image: url("./images/united-squares/united-squares/united-squares.png");
-  text-align: center;
+   text-align: center;
   
 }
 
@@ -50,6 +49,16 @@ ul {
 
 .icons {
   margin-left: 45%;
+}
+
+.btn-outline {
+  color: #8F3985;
+  border-color: #8F3985;
+}
+
+.btn-outline:hover {
+  color: #f8f9fa;
+  background-color: #8F3985;
 }
 
 .footer {
